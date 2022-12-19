@@ -3,12 +3,12 @@
 
 jmp main
 ;Mensagens armazenadas em variaves
-mensagem2 : string "Ma Oe, Bem-Vindo ao Show do Milhao"
-mensagem3 : string "Pressione a tecla Espaco"
-mensagem4 : string "para iniciar!"
-mensagem5 : string "Pressione a tecla correspondente"
-mensagem6 : string "GAME OVER"
-mensagem7 : string "Precione espaco para jogar novamente"
+mensagem1 : string "Ma Oe, Bem-Vindo ao Show do Milhao"
+mensagem2 : string "Pressione a tecla Espaco"
+mensagem3 : string "para iniciar!"
+mensagem4 : string "Pressione a tecla correspondente"
+mensagem5 : string "GAME OVER"
+mensagem6 : string "Precione espaco para jogar novamente"
 ;==================================================================
 ;
 ;						PERGUNTAS:
@@ -16,76 +16,76 @@ mensagem7 : string "Precione espaco para jogar novamente"
 ;==================================================================
 
 pergunta: string"O Brasil levou gol da Croacia faltando quanto tempo para classificar?"
-a1: string"a- 4 minutos" ;certa
-b1: string"b- 15 minutos" 
-c1: string"c- 30 minutos"
-d1: string"d- 8 minutos"
+a: string"a- 4 minutos" ;certa
+b: string"b- 15 minutos" 
+c: string"c- 30 minutos"
+d: string"d- 8 minutos"
 
-pergunta11: string"Qual linguagem de programacao o Simoes acha lenta?"
-a11: string"a- C#"
-b11: string"b- Assembly"
-c11: string"c- Python" ;certa
-d11: string"d- Pascal"
+pergunta2: string"Qual linguagem de programacao o Simoes acha lenta?"
+a2: string"a- C#"
+b2: string"b- Assembly"
+c2: string"c- Python" ;certa
+d2: string"d- Pascal"
 
-pergunta12: string"Com quantos anos a Rainha Elizabeth II faleceu?"
-a12: string"a- 89"
-b12: string"b- 96" ;certa
-c12: string"c- 95" 
-d12: string"d- 99" 
+pergunta3: string"Com quantos anos a Rainha Elizabeth II faleceu?"
+a3: string"a- 89"
+b3: string"b- 96" ;certa
+c3: string"c- 95" 
+d3: string"d- 99" 
 
-pergunta2: string"Por qual emissora o Faustao trocou a Globo?"
-a2: string"a- Band" ;certa
-b2: string"b- Rede TV"
-c2: string"c- SBT"
-d2: string"d- Record" 
+pergunta4: string"Por qual emissora o Faustao trocou a Globo?"
+a4: string"a- Band" ;certa
+b4: string"b- Rede TV"
+c4: string"c- SBT"
+d4: string"d- Record" 
 
-pergunta7: string"De quem e a frase 'Penso, logo existo'?"
-a7: string"a- Platao"
-b7: string"b- Socrates"
-c7: string"c- Aristoteles"
-d7: string"d- Descartes" ;certa
+pergunta5: string"De quem e a frase 'Penso, logo existo'?"
+a5: string"a- Platao"
+b5: string"b- Socrates"
+c5: string"c- Aristoteles"
+d5: string"d- Descartes" ;certa
 
-pergunta8: string"Em qual pais foi inventado o chuveiro eletrico?"
-a8: string"a- Brasil" ;certa
-b8: string"b- Inglaterra"
-c8: string"c- Franca"
-d8: string"d- EUA" 
+pergunta6: string"Em qual pais foi inventado o chuveiro eletrico?"
+a6: string"a- Brasil" ;certa
+b6: string"b- Inglaterra"
+c6: string"c- Franca"
+d6: string"d- EUA" 
 
-pergunta3: string"Qual o livro mais vendido do mundo apos a Biblia?"
-a3: string"a- O pequeno principe"
-b3: string"b- O Senhor dos Aneis"
-c3: string"c- O Alquimista"
-d3: string"d- Dom Quixote" ;certa 
+pergunta7: string"Qual o livro mais vendido do mundo apos a Biblia?"
+a7: string"a- O pequeno principe"
+b7: string"b- O Senhor dos Aneis"
+c7: string"c- O Alquimista"
+d7: string"d- Dom Quixote" ;certa 
 
-pergunta9: string"Qual pais da Asia possui o portugues como lingua oficial?"
-a9: string"a- Macau" ;certa
-b9: string"b- Mocambique"
-c9: string"c- Filipinas"
-d9: string"d- Butao" 
+pergunta8: string"Qual pais da Asia possui o portugues como lingua oficial?"
+a8: string"a- Macau" ;certa
+b8: string"b- Mocambique"
+c8: string"c- Filipinas"
+d8: string"d- Butao" 
 
-pergunta10: string"Qual pais bebe mais cafe per capita"
-a10: string"a- Italia"
-b10: string"b- EUA"
-c10: string"c- Finlandia" ;certa
-d10: string"d- Arabia Saudita" 
+pergunta9: string"Qual pais bebe mais cafe per capita"
+a9: string"a- Italia"
+b9: string"b- EUA"
+c9: string"c- Finlandia" ;certa
+d9: string"d- Arabia Saudita" 
 
-pergunta4: string"Qual o significado das setas do simbolo internacional da reciclagem?"
-a4: string"a- Fabricacao, utilizacao e reutilizacao" ;certa
-b4: string"b- Papel, vidro e metal"
-c4: string"c- Fabricacao, lixo e reaproveitamento"
-d4: string"d- Consumo, separacao e coleta" 
+pergunta10: string"Qual o significado das setas do simbolo internacional da reciclagem?"
+a10: string"a- Fabricacao, utilizacao e reutilizacao" ;certa
+b10: string"b- Papel, vidro e metal"
+c10: string"c- Fabricacao, lixo e reaproveitamento"
+d10: string"d- Consumo, separacao e coleta" 
 
-pergunta5: string"Quantos dias a Lua demora para dar uma volta na Terra?"
-a5: string"a- 31" 
-b5: string"b- 28" ;certa
-c5: string"c- 30"
-d5: string"d- 29"
+pergunta11: string"Quantos dias a Lua demora para dar uma volta na Terra?"
+a11: string"a- 31" 
+b11: string"b- 28" ;certa
+c11: string"c- 30"
+d11: string"d- 29"
 
-pergunta6: string"Qual foi o primeiro povo a usar a bussola?"
-a6: string"a- Gregos"
-b6: string"b- Romanos"
-c6: string"c- Mesopotamicos"
-d6: string"d- Chineses"  ;certa
+pergunta12: string"Qual foi o primeiro povo a usar a bussola?"
+a12: string"a- Gregos"
+b12: string"b- Romanos"
+c12: string"c- Mesopotamicos"
+d12: string"d- Chineses"  ;certa
 
 pergunta13: string"No Brasil, qual a velocidade maxima quando nao ha sinalizacao?"
 a13: string"a- 80km/h"
@@ -147,48 +147,41 @@ parabens: string"000000000000000000000000000000000000000
 00000000000000 0000000 0000000000000000
 000000000000             00000000000000
 00000000000               0000000000000
-0000000000                 000000000000
+0000000000   R$1.000.000   000000000000
 000000000                   00000000000
 00000000                     0000000000
 000000000000000000000000000000000000000
                                       
-  Para jogar novamente precione espaco
+  Para jogar novamente, aperte espaco 
 "
-Letra: var #1
+letra_usuario: var #1
 
 ;---- Inicio do Programa Principal -----
 
 main:
 	loadn r0, #603		; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem2	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000		; Seleciona a COR da Mensagem
+	loadn r1, #mensagem1	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r2, #2816		; Seleciona a COR da Mensagem
 	
-	call Imprimestr   ;  r0 = Posicao da tela que o primeiro caractere da mensagem sera' impresso;  r1 = endereco onde comeca a mensagem; r2 = cor da mensagem.   Obs: a mensagem sera' impressa ate' encontrar "/0"
-	;call ImprimePergunta
+	call imprime_mensagem   ;  r0 = Posicao da tela que o primeiro caractere da mensagem sera' impresso;  r1 = endereco onde comeca a mensagem; r2 = cor da mensagem.   Obs: a mensagem sera' impressa ate' encontrar "/0"
 	
 	loadn r0, #968	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem3 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000    ; Seleciona a COR da Mensagem
+	loadn r1, #mensagem2 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #1015	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem4  	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
+	loadn r1, #mensagem3  	; Carrega r1 com o endereco do vetor que contem a mensagem
 	
-	call Imprimestr	
-	
-;scanf("%c",Letra)
-;if(Letra == ' ') imprime pergunta
-;else volta no loop
-	
+	call imprime_mensagem	
+		
 loop:	
-	call digLetra 
+	call digita_letra 
 	
-	load r3, Letra ; 
+	load r3, letra_usuario ; 
 	loadn r4, #' '	
 	cmp r3, r4
-	ceq ImprimePergunta
+	ceq imprime_pergunta
 
 jmp loop
 	
@@ -199,7 +192,7 @@ jmp loop
 	
 ;---- Inicio das Subrotinas -----
 
-Imprimestr:	;  Rotina de Impresao de Mensagens:    r0 = Posicao da tela que o primeiro caractere da mensagem sera' impresso;  r1 = endereco onde comeca a mensagem; r2 = cor da mensagem.   Obs: a mensagem sera' impressa ate' encontrar "/0"
+imprime_mensagem:	;  Rotina de Impresao de Mensagens:    r0 = Posicao da tela que o primeiro caractere da mensagem sera' impresso;  r1 = endereco onde comeca a mensagem; r2 = cor da mensagem.   Obs: a mensagem sera' impressa ate' encontrar "/0"
 	push r0	; protege o r0 na pilha para preservar seu valor
 	push r1	; protege o r1 na pilha para preservar seu valor
 	push r2	; protege o r1 na pilha para preservar seu valor
@@ -208,17 +201,17 @@ Imprimestr:	;  Rotina de Impresao de Mensagens:    r0 = Posicao da tela que o pr
 	
 	loadn r3, #'\0'	; Criterio de parada
 
-ImprimestrLoop:	
-	loadi r4, r1
+imprime_string_loop:	
+	loadi r4, r1 ; vai carregando a mensagem letra por letra até terminar (encontrar o caractere '\0')
 	cmp r4, r3
-	jeq ImprimestrSai
+	jeq imprime_string_sai
 	add r4, r2, r4
 	outchar r4, r0
 	inc r0
 	inc r1
-	jmp ImprimestrLoop
+	jmp imprime_string_loop
 	
-ImprimestrSai:	
+imprime_string_sai:	
 	pop r4	; Resgata os valores dos registradores utilizados na Subrotina da Pilha
 	pop r3
 	pop r2
@@ -229,65 +222,61 @@ ImprimestrSai:
 ;*******************************************************
 ;				Sobre Loop das perguntas
 ;*******************************************************	
-;;scanf("%c",Letra)
-;if(Letra == 'resposta_correta') {
-	;apaga tela
-	;imprime proxima pergunta
-;}
-;else Game over
+; le a letra_usuario
+; se a letra_usuario for a resposta correta
+; 	apaga tela
+;   imprime proxima pergunta
+;
+; senao Game over
 ;
 
 ;********************************************************
 ;                   Imprime a 1 pergunta
 ;********************************************************	
-ImprimePergunta:
-	call ApagaTela
+imprime_pergunta:
+	call apagar_tela
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #a1 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
+	loadn r1, #a 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #b1 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
+	loadn r1, #b 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #c1 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
+	loadn r1, #c 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #d1 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
+	loadn r1, #d 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 
 	loop1:	
-		call digLetra
+		call digita_letra
 		
-		load r3, Letra
+		load r3, letra_usuario
 		loadn r4, #'a'	
 		cmp r3, r4
-		jeq ImprimePergunta2
-		jne GameOver
+		jeq imprime_pergunta_2
+		jne game_over
 
 	jmp loop1
 	
@@ -296,53 +285,49 @@ ImprimePergunta:
 ;********************************************************
 ;                   Imprime a 2 pergunta
 ;********************************************************	
-ImprimePergunta2:
-	call ApagaPergunta
+imprime_pergunta_2:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta2 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a2 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b2 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c2 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d2 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	loop2:	
-		call digLetra
+		call digita_letra
 		
-		load r3, Letra
-		loadn r4, #'a'	
+		load r3, letra_usuario
+		loadn r4, #'c'	
 		cmp r3, r4
-		jeq ImprimePergunta3
-		jne GameOver
+		jeq imprime_pergunta_3
+		jne game_over
 
 	jmp loop2
 	
@@ -350,53 +335,49 @@ ImprimePergunta2:
 ;********************************************************
 ;                   Imprime a 3 pergunta
 ;********************************************************	
-ImprimePergunta3:
-	call ApagaPergunta
+imprime_pergunta_3:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta3 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a3 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b3 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c3 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d3 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	loop3:	
-		call digLetra
+		call digita_letra
 
-		load r3, Letra
-		loadn r4, #'d'	
+		load r3, letra_usuario
+		loadn r4, #'b'	
 		cmp r3, r4
-		jeq ImprimePergunta4
-		jne GameOver
+		jeq imprime_pergunta_4
+		jne game_over
 
 	jmp loop3
 	
@@ -404,53 +385,49 @@ ImprimePergunta3:
 ;********************************************************
 ;                   Imprime a 4 pergunta
 ;********************************************************	
-ImprimePergunta4:
-	call ApagaPergunta
+imprime_pergunta_4:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a4 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b4 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c4 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d4 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	loop4:	
-		call digLetra
+		call digita_letra
 		
-		load r3, Letra
+		load r3, letra_usuario
 		loadn r4, #'a'	
 		cmp r3, r4
-		jeq ImprimePergunta5
-		jne GameOver
+		jeq imprime_pergunta_5
+		jne game_over
 
 	jmp loop4
 	
@@ -458,53 +435,49 @@ ImprimePergunta4:
 ;********************************************************
 ;                   Imprime a 5 pergunta
 ;********************************************************	
-ImprimePergunta5:
-	call ApagaPergunta
+imprime_pergunta_5:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta5 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a5 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b5 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c5 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d5 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	loop5:	
-		call digLetra
+		call digita_letra
 		
-		load r3, Letra
-		loadn r4, #'b'	
+		load r3, letra_usuario
+		loadn r4, #'d'	
 		cmp r3, r4
-		jeq ImprimePergunta6
-		jne GameOver
+		jeq imprime_pergunta_6
+		jne game_over
 
 	jmp loop5
 	
@@ -512,53 +485,49 @@ ImprimePergunta5:
 ;********************************************************
 ;                   Imprime a 6 pergunta
 ;********************************************************	
-ImprimePergunta6:
-	call ApagaPergunta
+imprime_pergunta_6:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta6 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a6 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b6 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c6 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d6 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	loop6:	
-		call digLetra
+		call digita_letra
 				
-		load r3, Letra
-		loadn r4, #'d'	
+		load r3, letra_usuario
+		loadn r4, #'a'	
 		cmp r3, r4
-		jeq ImprimePergunta7
-		jne GameOver
+		jeq imprime_pergunta_7
+		jne game_over
 
 	jmp loop6
 	
@@ -566,106 +535,98 @@ ImprimePergunta6:
 ;********************************************************
 ;                   Imprime a 7 pergunta
 ;********************************************************	
-ImprimePergunta7:
-	call ApagaPergunta
+imprime_pergunta_7:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta7 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a7 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b7 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c7 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d7 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	loop7:	
-		call digLetra
+		call digita_letra
 				
-		load r3, Letra
+		load r3, letra_usuario
 		loadn r4, #'d'	
 		cmp r3, r4
-		jeq ImprimePergunta8
-		jne GameOver
+		jeq imprime_pergunta_8
+		jne game_over
 
 	jmp loop7
 ;---------------------------------------------		
 ;********************************************************
 ;                   Imprime a 8 pergunta
 ;********************************************************	
-ImprimePergunta8:
-	call ApagaPergunta
+imprime_pergunta_8:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta8 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a8 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b8 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c8 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d8 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	loop8:	
-		call digLetra
+		call digita_letra
 				
-		load r3, Letra
+		load r3, letra_usuario
 		loadn r4, #'a'	
 		cmp r3, r4
-		jeq ImprimePergunta9
-		jne GameOver
+		jeq imprime_pergunta_9
+		jne game_over
 
 	jmp loop8
 	
@@ -673,53 +634,49 @@ ImprimePergunta8:
 ;********************************************************
 ;                   Imprime a 9 pergunta
 ;********************************************************	
-ImprimePergunta9:
-	call ApagaPergunta
+imprime_pergunta_9:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta9 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a9 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b9 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c9 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d9 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	loop9:	
-		call digLetra
+		call digita_letra
 				
-		load r3, Letra
-		loadn r4, #'a'	
+		load r3, letra_usuario
+		loadn r4, #'c'	
 		cmp r3, r4
-		jeq ImprimePergunta10
-		jne GameOver
+		jeq imprime_pergunta_10
+		jne game_over
 
 	jmp loop9
 	
@@ -727,54 +684,50 @@ ImprimePergunta9:
 ;********************************************************
 ;                   Imprime a 10 pergunta
 ;********************************************************	
-ImprimePergunta10:
-	call ApagaPergunta
+imprime_pergunta_10:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta10 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a10 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b10 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c10 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d10 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loop10:	
-		call digLetra
+		call digita_letra
 				
-		load r3, Letra
-		loadn r4, #'c'	
+		load r3, letra_usuario
+		loadn r4, #'a'	
 		cmp r3, r4
-		jeq ImprimePergunta11
-		jne GameOver
+		jeq imprime_pergunta_11
+		jne game_over
 
 	jmp loop10
 	
@@ -782,54 +735,50 @@ ImprimePergunta10:
 ;********************************************************
 ;                   Imprime a 11 pergunta
 ;********************************************************	
-ImprimePergunta11:
-	call ApagaPergunta
+imprime_pergunta_11:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta11 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a11 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b11 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c11 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d11 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loop11:	
-		call digLetra
+		call digita_letra
 				
-		load r3, Letra
-		loadn r4, #'c'	
+		load r3, letra_usuario
+		loadn r4, #'b'	
 		cmp r3, r4
-		jeq ImprimePergunta12
-		jne GameOver
+		jeq imprime_pergunta_12
+		jne game_over
 
 	jmp loop11
 	
@@ -837,405 +786,376 @@ ImprimePergunta11:
 ;********************************************************
 ;                   Imprime a 12 pergunta
 ;********************************************************	
-ImprimePergunta12:
-	call ApagaPergunta
+imprime_pergunta_12:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta12 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a12 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b12 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c12 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d12 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	loop12:	
-		call digLetra
+		call digita_letra
 			
-		load r3, Letra
-		loadn r4, #'b'	
+		load r3, letra_usuario
+		loadn r4, #'d'	
 		cmp r3, r4
-		jeq ImprimePergunta13
-		jne GameOver
+		jeq imprime_pergunta_13
+		jne game_over
 
 	jmp loop12
 ;---------------------------------------------		
 ;********************************************************
 ;                   Imprime a 13 pergunta
 ;********************************************************	
-ImprimePergunta13:
-	call ApagaPergunta
+imprime_pergunta_13:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta13 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a13 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b13 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c13 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d13 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	loop13:	
-		call digLetra
+		call digita_letra
 			
-		load r3, Letra
+		load r3, letra_usuario
 		loadn r4, #'c'	
 		cmp r3, r4
-		jeq ImprimePergunta14
-		jne GameOver
+		jeq imprime_pergunta_14
+		jne game_over
 
 	jmp loop13
 ;---------------------------------------------		
 ;********************************************************
 ;                   Imprime a 14 pergunta
 ;********************************************************	
-ImprimePergunta14:
-	call ApagaPergunta
+imprime_pergunta_14:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta14 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a14 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b14 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c14 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d14 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	loop14:	
-		call digLetra
+		call digita_letra
 				
-		load r3, Letra
+		load r3, letra_usuario
 		loadn r4, #'a'	
 		cmp r3, r4
-		jeq ImprimePergunta15
-		jne GameOver
+		jeq imprime_pergunta_15
+		jne game_over
 
 	jmp loop14
 ;---------------------------------------------		
 ;********************************************************
 ;                   Imprime a 15 pergunta
 ;********************************************************	
-ImprimePergunta15:
-	call ApagaPergunta
+imprime_pergunta_15:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta15 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a15 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b15 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c15 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d15 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	loop15:	
-		call digLetra
+		call digita_letra
 				
-		load r3, Letra
+		load r3, letra_usuario
 		loadn r4, #'b'	
 		cmp r3, r4
-		jeq ImprimePergunta16
-		jne GameOver
+		jeq imprime_pergunta_16
+		jne game_over
 
 	jmp loop15
 ;---------------------------------------------		
 ;********************************************************
 ;                   Imprime a 16 pergunta
 ;********************************************************	
-ImprimePergunta16:
-	call ApagaPergunta
+imprime_pergunta_16:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta16 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a16 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b16 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c16 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d16 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loop16:	
-		call digLetra
+		call digita_letra
 			
-		load r3, Letra
+		load r3, letra_usuario
 		loadn r4, #'b'	
 		cmp r3, r4
-		jeq ImprimePergunta17
-		jne GameOver
+		jeq imprime_pergunta_17
+		jne game_over
 
 	jmp loop16
 ;---------------------------------------------		
 ;********************************************************
 ;                   Imprime a 17 pergunta
 ;********************************************************	
-ImprimePergunta17:
-	call ApagaPergunta
+imprime_pergunta_17:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta17 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a17 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b17 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c17 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d17 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loop17:	
-		call digLetra
+		call digita_letra
 		
-		load r3, Letra
+		load r3, letra_usuario
 		loadn r4, #'d'	
 		cmp r3, r4
-		jeq ImprimePergunta18
-		jne GameOver
+		jeq imprime_pergunta_18
+		jne game_over
 
 	jmp loop17
 ;---------------------------------------------		
 ;********************************************************
 ;                   Imprime a 18 pergunta
 ;********************************************************	
-ImprimePergunta18:
-	call ApagaPergunta
+imprime_pergunta_18:
+	call apagar_pergunta
 	
 	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem4 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #512   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 		
 	loadn r0, #80	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #pergunta18 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #200	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #a18 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #240	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #b18 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #280	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #c18 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #320	; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #d18 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #000   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loop18:	
-		call digLetra
+		call digita_letra
 		
-		load r3, Letra
+		load r3, letra_usuario
 		loadn r4, #'b'	
 		cmp r3, r4
 		jeq Parabens
-		jne GameOver
+		jne game_over
 
 	jmp loop18
 ;---------------------------------------------	
 	
 ;********************************************************
-;					Parabens
+;			Conseguiu terminar o Show do Milhao
 ;********************************************************	
 Parabens:	
-	call ApagaPergunta
-	loadn r0, #0	; Posicao na tela onde a mensagem sera' escrita
+	call apagar_pergunta
+	loadn r0, #0	        ; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #parabens 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #512
-	call Imprimestr
-	loopp:	
-		call digLetra
+	loadn r2, #2816	        ; Coloca a cor amarela pra mostra o trofeu e o dinheiro
+	call imprime_mensagem
+	loop_parabens:	
+		call digita_letra 	; le o teclado
 		
-		load r3, Letra
-		loadn r4, #' '	
+		load r3, letra_usuario 
+		loadn r4, #' '		; se a letra for igual a tecla espaco
 		cmp r3, r4
-		jeq ImprimePergunta
+		jeq imprime_pergunta ; vai pra primeira pergunta
 
-	jmp loopp
+	jmp loop_parabens		; senao le o teclado de novo ate encontrar o espaco
 	
-	;halt
 	
 	
 ;********************************************************
 ;                   DIGITE UMA LETRA
 ;********************************************************
 
-digLetra:	; Espera que uma tecla seja digitada e salva na variavel global "Letra"
+digita_letra:	    ; Espera que uma tecla seja digitada e salva na variavel global "letra_usuario"
 	push fr		; Protege o registrador de flags
 	push r0
 	push r1
@@ -1243,19 +1163,19 @@ digLetra:	; Espera que uma tecla seja digitada e salva na variavel global "Letra
 	loadn r1, #255	; Se nao digitar nada vem 255
 	loadn r2, #0	; Logo que programa a FPGA o inchar vem 0
 
-   digLetra_Loop:
+   loop_digite_letra:
 		inchar r0			; Le o teclado, se nada for digitado = 255
 		cmp r0, r1			;compara r0 com 255
-		jeq digLetra_Loop	; Fica lendo ate' que digite uma tecla valida
+		jeq loop_digite_letra	; Fica lendo ate' que digite uma tecla valida
 		cmp r0, r2			;compara r0 com 0
-		jeq digLetra_Loop	; Le novamente pois Logo que programa a FPGA o inchar vem 0
+		jeq loop_digite_letra	; Le novamente pois Logo que programa a FPGA o inchar vem 0
 
-	store Letra, r0			; Salva a tecla na variavel global "Letra"
+	store letra_usuario, r0			; Salva a tecla na variavel global "letra_usuario"
 	
-   digLetra_Loop2:	
+   loop_digite_letra_2:	
 		inchar r0			; Le o teclado, se nada for digitado = 255
 		cmp r0, r1			;compara r0 com 255
-		jne digLetra_Loop2	; Fica lendo ate' que digite uma tecla valida
+		jne loop_digite_letra_2	; Fica lendo ate' que digite uma tecla valida
 	
 	pop r2
 	pop r1
@@ -1267,7 +1187,7 @@ digLetra:	; Espera que uma tecla seja digitada e salva na variavel global "Letra
 ;********************************************************
 ;                       APAGA TELA
 ;********************************************************
-ApagaTela:
+apagar_tela:
 	push fr		; Protege o registrador de flags
 	push r0
 	push r1
@@ -1275,10 +1195,10 @@ ApagaTela:
 	loadn r0, #1200		; apaga as 1200 posicoes da Tela
 	loadn r1, #' '		; com "espaco"
 	
-	   ApagaTela_Loop:	;;label for(r0=1200;r3>0;r3--)
+	   loop_apagar_tela:	; decrementa o 1200 até chegar a 0
 		dec r0
 		outchar r1, r0
-		jnz ApagaTela_Loop
+		jnz loop_apagar_tela
  
 	pop r1
 	pop r0
@@ -1288,7 +1208,7 @@ ApagaTela:
 ;********************************************************
 ;                       APAGA PERGUNTA
 ;********************************************************
-ApagaPergunta:
+apagar_pergunta:
 	push fr		; Protege o registrador de flags
 	push r0
 	push r1
@@ -1296,10 +1216,10 @@ ApagaPergunta:
 	loadn r0, #400		; apaga as 400 posicoes da Tela
 	loadn r1, #' '		; com "espaco"
 	
-	   ApagaPergunta_Loop:	;;label for(r0=1200;r3>0;r3--)
+	   loop_apagar_pergunta:	; decrementa o 400 ate chegar a 0
 		dec r0
 		outchar r1, r0
-		jnz ApagaPergunta_Loop
+		jnz loop_apagar_pergunta
  
 	pop r1
 	pop r0
@@ -1308,34 +1228,33 @@ ApagaPergunta:
 ;********************************************************
 ;                       GAME OVER
 ;********************************************************
-GameOver:
-	call ApagaPergunta
+game_over:
+	call apagar_pergunta
 	push r0
 	push r1
 	push r2
 	
 	loadn r0, #615	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem6 	; Carrega r1 com o endereco do vetor que contem a mensagem
+	loadn r1, #mensagem5 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #2304   ; Seleciona a COR da Mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
 	loadn r0, #962	; Posicao na tela onde a mensagem sera' escrita
-	loadn r1, #mensagem7 	; Carrega r1 com o endereco do vetor que contem a mensagem
-	loadn r2, #2304   ; Seleciona a COR da Mensagem
+	loadn r1, #mensagem6 	; Carrega r1 com o endereco do vetor que contem a mensagem
 	
-	call Imprimestr
+	call imprime_mensagem
 	
-		loopp:	
-		call digLetra
+		loop_game_over:	
+		call digita_letra
 		
-		load r3, Letra
+		load r3, letra_usuario
 		loadn r4, #' '	
 		cmp r3, r4
-		jeq ImprimePergunta
+		jeq imprime_pergunta
 		
 
-	jmp loopp
+	jmp loop_game_over
 	
 	pop r0
 	pop r1
