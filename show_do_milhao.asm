@@ -3,7 +3,7 @@
 
 jmp main
 ;Mensagens armazenadas em variaves
-mensagem2 : string "Má Oe, Bem-Vindo ao Show do Milhao"
+mensagem2 : string "Ma Oe, Bem-Vindo ao Show do Milhao"
 mensagem3 : string "Pressione a tecla Espaco"
 mensagem4 : string "para iniciar!"
 mensagem5 : string "Pressione a tecla correspondente"
@@ -16,112 +16,112 @@ mensagem7 : string "Precione espaco para jogar novamente"
 ;==================================================================
 
 pergunta: string"O Brasil levou gol da Croacia faltando quanto tempo para classificar?"
-a1: string"A- 15 minutos"
-b1: string"B- 4 minutos" ;certa
-c1: string"C- 30 minutos"
-d1: string"D- 8 minutos"
+a1: string"a- 4 minutos" ;certa
+b1: string"b- 15 minutos" 
+c1: string"c- 30 minutos"
+d1: string"d- 8 minutos"
 
-pergunta11: string"Qual linguagem de programação o Simoes acha lenta?"
-a11: string"A- C#"
-b11: string"B- Assembly"
-c11: string"C- Python" ;certa
-d11: string"D- Pascal"
+pergunta11: string"Qual linguagem de programacao o Simoes acha lenta?"
+a11: string"a- C#"
+b11: string"b- Assembly"
+c11: string"c- Python" ;certa
+d11: string"d- Pascal"
 
 pergunta12: string"Com quantos anos a Rainha Elizabeth II faleceu?"
-a12: string"A- 89"
-b12: string"B- 95"
-c12: string"C- 96" ;certa
-d12: string"D- 99" 
+a12: string"a- 89"
+b12: string"b- 96" ;certa
+c12: string"c- 95" 
+d12: string"d- 99" 
 
 pergunta2: string"Por qual emissora o Faustao trocou a Globo?"
-a2: string"A- Band" ;certa
-b2: string"B- Rede TV"
-c2: string"C- SBT"
-d2: string"D- Record" 
+a2: string"a- Band" ;certa
+b2: string"b- Rede TV"
+c2: string"c- SBT"
+d2: string"d- Record" 
 
-pergunta7: string"De quem é a frase Penso, logo existo?"
-a7: string"A- Platao"
-b7: string"B- Socrates"
-c7: string"C- Aristoteles"
-d7: string"D- Descartes" ;certa
+pergunta7: string"De quem e a frase 'Penso, logo existo'?"
+a7: string"a- Platao"
+b7: string"b- Socrates"
+c7: string"c- Aristoteles"
+d7: string"d- Descartes" ;certa
 
 pergunta8: string"Em qual pais foi inventado o chuveiro eletrico?"
-a8: string"A- Brasil" ;certa
-b8: string"B- Inglaterra"
-c8: string"C- Franca"
-d8: string"D- EUA" 
+a8: string"a- Brasil" ;certa
+b8: string"b- Inglaterra"
+c8: string"c- Franca"
+d8: string"d- EUA" 
 
 pergunta3: string"Qual o livro mais vendido do mundo apos a Biblia?"
-a3: string"A- O pequeno principe"
-b3: string"B- O Senhor dos Aneis"
-c3: string"C- Dom Quixote" ;certa
-d3: string"D- O Alquimista" 
+a3: string"a- O pequeno principe"
+b3: string"b- O Senhor dos Aneis"
+c3: string"c- O Alquimista"
+d3: string"d- Dom Quixote" ;certa 
 
 pergunta9: string"Qual pais da Asia possui o portugues como lingua oficial?"
-a9: string"A- Macau" ;certa
-b9: string"B- Mocambique"
-c9: string"C- Filipinas"
-d9: string"D- Butao" 
+a9: string"a- Macau" ;certa
+b9: string"b- Mocambique"
+c9: string"c- Filipinas"
+d9: string"d- Butao" 
 
 pergunta10: string"Qual pais bebe mais cafe per capita"
-a10: string"A- Italia"
-b10: string"B- EUA"
-c10: string"C- Finlandia" ;certa
-d10: string"D- Arabia Saudita" 
+a10: string"a- Italia"
+b10: string"b- EUA"
+c10: string"c- Finlandia" ;certa
+d10: string"d- Arabia Saudita" 
 
-pergunta4: string"Qual o significado das setas do símbolo internacional da reciclagem?"
-a4: string"A- Fabricacao, utilizacao e reutilizacao" ;certa
-b4: string"B- Papel, vidro e metal"
-c4: string"C- Fabricacao, lixo e reaproveitamento"
-d4: string"D- Consumo, separacao e coleta" 
+pergunta4: string"Qual o significado das setas do simbolo internacional da reciclagem?"
+a4: string"a- Fabricacao, utilizacao e reutilizacao" ;certa
+b4: string"b- Papel, vidro e metal"
+c4: string"c- Fabricacao, lixo e reaproveitamento"
+d4: string"d- Consumo, separacao e coleta" 
 
 pergunta5: string"Quantos dias a Lua demora para dar uma volta na Terra?"
-a5: string"A- 28" ;certa
-b5: string"B- 31"
-c5: string"C- 30"
-d5: string"D- 29"
+a5: string"a- 31" 
+b5: string"b- 28" ;certa
+c5: string"c- 30"
+d5: string"d- 29"
 
 pergunta6: string"Qual foi o primeiro povo a usar a bussola?"
-a6: string"A- Gregos"
-b6: string"B- Romanos"
-c6: string"C- Mesopotamicos"
-d6: string"D- Chineses"  ;certa
+a6: string"a- Gregos"
+b6: string"b- Romanos"
+c6: string"c- Mesopotamicos"
+d6: string"d- Chineses"  ;certa
 
 pergunta13: string"No Brasil, qual a velocidade maxima quando nao ha sinalizacao?"
-a13: string"A- 80km/h"
-b13: string"B- 100km/h"
-c13: string"C- 110km/h" ;certa
-d13: string"D- 120km/h" 
+a13: string"a- 80km/h"
+b13: string"b- 100km/h"
+c13: string"c- 110km/h" ;certa
+d13: string"d- 120km/h" 
 
 pergunta14: string"Quem possui mais estatuetas do Oscar?"
-a14: string"A- Walt Disney" ;certa
-b14: string"B- Hans Zimmer"
-c14: string"C- John Ford"
-d14: string"D- Keanu Reeves" 
+a14: string"a- Walt Disney" ;certa
+b14: string"b- Hans Zimmer"
+c14: string"c- John Ford"
+d14: string"d- Keanu Reeves" 
 
 pergunta15: string"Qual elemento quimico representado pela sigla Au?"
-a15: string"A- Prata"
-b15: string"B- Cobre"
-c15: string"C- Ouro" ;certa
-d15: string"D- Aluminio" 
+a15: string"a- Prata"
+b15: string"b- Ouro" ;certa
+c15: string"c- Aluminio"
+d15: string"d- Cobre"
 
 pergunta16: string"Qual o melhor jogador de futebol da historia?"
-a16: string"A- Messi"
-b16: string"B- Pele" ;certa
-c16: string"C- Maradona" 
-d16: string"D- Cristiano Ronaldo"
+a16: string"a- Messi"
+b16: string"b- Pele" ;certa
+c16: string"c- Maradona" 
+d16: string"d- Cristiano Ronaldo"
 
 pergunta17: string"Um dos tres mosqueteiros se chama?"
-a17: string"A- Artagnan"
-b17: string"B- Planchet"
-c17: string"C- Richelieu"
-d17: string"D- Aramis" ;certa
+a17: string"a- Artagnan"
+b17: string"b- Planchet"
+c17: string"c- Richelieu"
+d17: string"d- Aramis" ;certa
 
 pergunta18: string"A Grande Resposta sobre a Vida, o Universo e Tudo o Mais?"
-a18: string"A- Ser feliz" 
-b18: string"B- 42" ;certa
-c18: string"C- Fazer o que voce quiser"
-d18: string"D- A vida nao tem significado"
+a18: string"a- Ser feliz" 
+b18: string"b- 42" ;certa
+c18: string"c- Fazer o que voce quiser"
+d18: string"d- A vida nao tem significado"
 
 parabens: string"000000000000000000000000000000000000000
 000      0000000000000000000      00000
@@ -159,7 +159,7 @@ Letra: var #1
 ;---- Inicio do Programa Principal -----
 
 main:
-	loadn r0, #611		; Posicao na tela onde a mensagem sera' escrita
+	loadn r0, #603		; Posicao na tela onde a mensagem sera' escrita
 	loadn r1, #mensagem2	; Carrega r1 com o endereco do vetor que contem a mensagem
 	loadn r2, #000		; Seleciona a COR da Mensagem
 	
@@ -284,7 +284,7 @@ ImprimePergunta:
 		call digLetra
 		
 		load r3, Letra
-		loadn r4, #'c'	
+		loadn r4, #'a'	
 		cmp r3, r4
 		jeq ImprimePergunta2
 		jne GameOver
@@ -339,7 +339,7 @@ ImprimePergunta2:
 		call digLetra
 		
 		load r3, Letra
-		loadn r4, #'b'	
+		loadn r4, #'a'	
 		cmp r3, r4
 		jeq ImprimePergunta3
 		jne GameOver
@@ -393,7 +393,7 @@ ImprimePergunta3:
 		call digLetra
 
 		load r3, Letra
-		loadn r4, #'a'	
+		loadn r4, #'d'	
 		cmp r3, r4
 		jeq ImprimePergunta4
 		jne GameOver
@@ -447,7 +447,7 @@ ImprimePergunta4:
 		call digLetra
 		
 		load r3, Letra
-		loadn r4, #'b'	
+		loadn r4, #'a'	
 		cmp r3, r4
 		jeq ImprimePergunta5
 		jne GameOver
@@ -501,7 +501,7 @@ ImprimePergunta5:
 		call digLetra
 		
 		load r3, Letra
-		loadn r4, #'c'	
+		loadn r4, #'b'	
 		cmp r3, r4
 		jeq ImprimePergunta6
 		jne GameOver
@@ -555,7 +555,7 @@ ImprimePergunta6:
 		call digLetra
 				
 		load r3, Letra
-		loadn r4, #'a'	
+		loadn r4, #'d'	
 		cmp r3, r4
 		jeq ImprimePergunta7
 		jne GameOver
@@ -609,7 +609,7 @@ ImprimePergunta7:
 		call digLetra
 				
 		load r3, Letra
-		loadn r4, #'b'	
+		loadn r4, #'d'	
 		cmp r3, r4
 		jeq ImprimePergunta8
 		jne GameOver
@@ -662,7 +662,7 @@ ImprimePergunta8:
 		call digLetra
 				
 		load r3, Letra
-		loadn r4, #'b'	
+		loadn r4, #'a'	
 		cmp r3, r4
 		jeq ImprimePergunta9
 		jne GameOver
@@ -716,7 +716,7 @@ ImprimePergunta9:
 		call digLetra
 				
 		load r3, Letra
-		loadn r4, #'c'	
+		loadn r4, #'a'	
 		cmp r3, r4
 		jeq ImprimePergunta10
 		jne GameOver
@@ -771,7 +771,7 @@ ImprimePergunta10:
 		call digLetra
 				
 		load r3, Letra
-		loadn r4, #'d'	
+		loadn r4, #'c'	
 		cmp r3, r4
 		jeq ImprimePergunta11
 		jne GameOver
@@ -880,7 +880,7 @@ ImprimePergunta12:
 		call digLetra
 			
 		load r3, Letra
-		loadn r4, #'a'	
+		loadn r4, #'b'	
 		cmp r3, r4
 		jeq ImprimePergunta13
 		jne GameOver
@@ -933,7 +933,7 @@ ImprimePergunta13:
 		call digLetra
 			
 		load r3, Letra
-		loadn r4, #'a'	
+		loadn r4, #'c'	
 		cmp r3, r4
 		jeq ImprimePergunta14
 		jne GameOver
@@ -986,7 +986,7 @@ ImprimePergunta14:
 		call digLetra
 				
 		load r3, Letra
-		loadn r4, #'d'	
+		loadn r4, #'a'	
 		cmp r3, r4
 		jeq ImprimePergunta15
 		jne GameOver
@@ -1039,7 +1039,7 @@ ImprimePergunta15:
 		call digLetra
 				
 		load r3, Letra
-		loadn r4, #'a'	
+		loadn r4, #'b'	
 		cmp r3, r4
 		jeq ImprimePergunta16
 		jne GameOver
@@ -1093,7 +1093,7 @@ ImprimePergunta16:
 		call digLetra
 			
 		load r3, Letra
-		loadn r4, #'c'	
+		loadn r4, #'b'	
 		cmp r3, r4
 		jeq ImprimePergunta17
 		jne GameOver
@@ -1147,7 +1147,7 @@ ImprimePergunta17:
 		call digLetra
 		
 		load r3, Letra
-		loadn r4, #'c'	
+		loadn r4, #'d'	
 		cmp r3, r4
 		jeq ImprimePergunta18
 		jne GameOver
