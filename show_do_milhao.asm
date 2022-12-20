@@ -1,8 +1,8 @@
-;Nome: Aruan Bretas de Oliveira Filho   NUSP: 12609731
+;Nome: Aruan Bretas de Oliveira Filho  		NUSP: 12609731
 ;Nome: Diogo Barboza de Souza 			NUSP: 12745657
 ;Nome: Fernando Lucas Vieira Souza 		NUSP: 12703069
 ;Nome: Gabriel Sol da Silva  			NUSP: 9807486
-;Nome: Yudi Asano Ramos 				NUSP: 12873553
+;Nome: Yudi Asano Ramos 			NUSP: 12873553
 
 
 jmp main
